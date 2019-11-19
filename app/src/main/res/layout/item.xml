@@ -25,10 +25,11 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txtvName"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:alpha=".5"
+            android:layout_height="30dp"
+            android:textStyle="bold|italic"
+            android:alpha=".6"
             android:background="#000000"
             android:gravity="center_horizontal"
             android:text="TextView"
